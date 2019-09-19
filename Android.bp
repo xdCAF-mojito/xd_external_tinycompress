@@ -1,5 +1,6 @@
 cc_library_shared {
     name: "libtinycompress",
+    defaults: ["extended_compress_format_defaults"],
     vendor: true,
 
     cflags: [
@@ -24,6 +25,7 @@ cc_library_shared {
 
 cc_library_shared {
     name: "libtinycompress_vendor",
+    defaults: ["extended_compress_format_defaults"],
     vendor: true,
 
     cflags: [
